@@ -1,7 +1,5 @@
 import os
-import openai
-from fastapi import FastAPI
-from fastapi.responses import RedirectResponse
+
 from pydantic import BaseModel
 
 class Body(BaseModel):
