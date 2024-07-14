@@ -39,7 +39,7 @@ def ask(body: Body):
     """
     search_result = search(body.query)
     chat_bot_response = assistant(body.query, search_result)
-    return {'response': chat_bot_response}
+    return {'response': "Vijay says Hello"}
 
 
 
